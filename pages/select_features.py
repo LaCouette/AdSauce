@@ -15,7 +15,7 @@ if "is_processed" not in st.session_state:
 
 
 if 'fname' and 'input_folder' in st.session_state:
-    keywords = st.text_input("Enter Keywords (Seperated by ','): ")
+    keywords = st.text_input("Enter Keywords related to your products (Seperated by ',') [WILL BE REPLACED THE VIDEO METADATAS]: ")
     if keywords:
         keywords = keywords.split(",")
     
